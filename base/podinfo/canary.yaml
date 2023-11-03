@@ -20,10 +20,10 @@ spec:
     kind: Ingress
     name: podinfo
   # HPA reference (optional)
-  autoscalerRef:
-    apiVersion: autoscaling/v2beta2
-    kind: HorizontalPodAutoscaler
-    name: podinfo
+  # autoscalerRef:
+  #   apiVersion: autoscaling/v2beta2
+  #   kind: HorizontalPodAutoscaler
+  #   name: podinfo
   # the maximum time in seconds for the canary deployment
   # to make progress before rollback (default 600s)
   progressDeadlineSeconds: 60
