@@ -22,7 +22,7 @@ spec:
       enabled: true
       className: nginx
     hpa: 
-      enabled: true
+      enabled: false
   interval: 5m
   install:
     remediation:
